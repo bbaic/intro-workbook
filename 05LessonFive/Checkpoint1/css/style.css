@@ -1,5 +1,5 @@
 #left, #right {
-  border: 1px dashed black;
+  /*border: 1px dashed black;*/
   float:left;
   width:500px;
   height:395px;
@@ -8,6 +8,7 @@
 #right{
   text-align:center;
   margin-left:5px;
+  background-color: rgb(240,240,240);
 }
 
 #rightSideContent{
