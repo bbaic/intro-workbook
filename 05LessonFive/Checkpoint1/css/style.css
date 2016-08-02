@@ -3,6 +3,11 @@
   float:left;
   width:500px;
   height:395px;
+  
+  /* alternative to float: */
+  /*display:inline-block;*/
+  /*vertical-align:top;*/
+  /* end alternative to float: */
 }
 
 #right{
