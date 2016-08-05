@@ -1,0 +1,81 @@
+body{
+
+}
+
+nav{
+  float:right;
+}
+header h1{
+  float:left;
+  margin:5px 0 0 0;
+}
+
+main:before{
+  content:"";
+  clear:both;
+  display:block;
+}
+
+
+.clearfloat{
+  content:"";
+  clear:both;
+  display:block;
+}
+
+ul>li{
+  display:inline;
+  margin-right:5px;
+}
+
+ul>li>a{
+  text-decoration: none;
+}
+
+li:before{
+  content:url('../images/droplet.png');
+}
+
+
+/* main stuff now */
+main, header{
+  max-width:800px !important;
+  margin: 0 auto !important;
+}
+
+#splash{
+  text-align: center;
+  background-color:#E4B13F;
+  height:200px;
+
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+  display:block;
+}
+
+
+#inner-splash{
+  color:#333333;
+}
+#inner-splash>a{
+  text-decoration: none;
+  border: 1px dashed #333333;
+  padding: 3px 10px;
+  color:#333333;
+}
+
+
+/* subsection */
+#subsection>img{
+  float:left;
+  width:250px;
+  height:auto;
+  margin: 0 10px 10px 0;
+}
+#subsection>span{
+
+}
