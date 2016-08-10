@@ -1,0 +1,46 @@
+
+
+main{
+  /*background-color: blue;*/
+  padding-top:80px;
+}
+
+main:after{
+  display:block;
+  content:" ";
+  clear:both;
+}
+
+
+.person{
+  text-align: center;
+  float:left;
+  max-width: 33%;
+}
+
+.person>img:hover{
+    -webkit-filter:blur(2px);
+    filter:blur(2px);
+}
+
+.name{
+  font-size: large;
+  text-transform: uppercase;
+  /*font-style: italic;*/
+}
+
+.name:hover{
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count:infinite;
+}
+
+.bio{
+  font-family: cursive;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(1.0, 1.0);}
+    50% {-webkit-transform: scale(1.1, 1.1);}
+    100% {-webkit-transform: scale(1.0, 1.0);}
+}
